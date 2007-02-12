@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	GSSAPI
 Summary:	GSSAPI - Perl extension providing access to the GSSAPIv2 library
-Summary(pl.UTF-8):   GSSAPI - rozszerzenie Perla dające dostęp do biblioteki GSSAPIv2
+Summary(pl.UTF-8):	GSSAPI - rozszerzenie Perla dające dostęp do biblioteki GSSAPIv2
 Name:		perl-GSSAPI
 Version:	0.22
 Release:	2
