@@ -7,13 +7,13 @@
 Summary:	GSSAPI - Perl extension providing access to the GSSAPIv2 library
 Summary(pl.UTF-8):	GSSAPI - rozszerzenie Perla dające dostęp do biblioteki GSSAPIv2
 Name:		perl-GSSAPI
-Version:	0.24
-Release:	2
+Version:	0.26
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/A/AG/AGROLMS/GSSAPI-%{version}.tar.gz
-# Source0-md5:	403e856559fb4264bab748206125c3e7
+# Source0-md5:	c113a8952a9b97541fb7fb9de4502ad6
 URL:		http://search.cpan.org/dist/GSSAPI/
 BuildRequires:	krb5-devel
 BuildRequires:	perl-devel >= 1:5.8.0
