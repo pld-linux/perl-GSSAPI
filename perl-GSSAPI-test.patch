@@ -1,0 +1,10 @@
+--- GSSAPI-0.26/t/zbugfixes.t~	2009-07-05 10:07:38.567548674 +0200
++++ GSSAPI-0.26/t/zbugfixes.t	2009-07-05 10:08:23.690549309 +0200
+@@ -25,6 +25,7 @@
+        # the realm - part of $display
+        # see <http://rt.cpan.org/Public/Bug/Display.html?id=18531>
+        #
++       diag( "$keystring === $display\n");
+        ok ( $status, '$name->display() GSS_S_COMPLETE ' . $status);
+        SKIP: {
+            if ( $status->major != GSS_S_COMPLETE  ) {
