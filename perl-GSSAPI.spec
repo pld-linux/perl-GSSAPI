@@ -18,6 +18,7 @@ URL:		http://search.cpan.org/dist/GSSAPI/
 BuildRequires:	heimdal-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	which
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
