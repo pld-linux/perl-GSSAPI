@@ -64,7 +64,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/GSSAPI/OID
 %{perl_vendorarch}/GSSAPI/OID/Set.pm
 %dir %{perl_vendorarch}/auto/GSSAPI
-%{perl_vendorarch}/auto/GSSAPI/*.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/GSSAPI/*.so
 %{_mandir}/man3/*
 %{_examplesdir}/%{name}-%{version}
