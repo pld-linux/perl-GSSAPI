@@ -13,10 +13,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/A/AG/AGROLMS/GSSAPI-%{version}.tar.gz
 # Source0-md5:	65f00a0749212af064289c8a05e59b3f
-URL:		http://search.cpan.org/dist/GSSAPI/
+URL:		https://metacpan.org/dist/GSSAPI
 BuildRequires:	heimdal-devel
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	which
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -63,6 +64,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/GSSAPI/OID
 %{perl_vendorarch}/GSSAPI/OID/Set.pm
 %dir %{perl_vendorarch}/auto/GSSAPI
-%attr(755,root,root) %{perl_vendorarch}/auto/GSSAPI/*.so
-%{_mandir}/man3/*
+%attr(755,root,root) %{perl_vendorarch}/auto/GSSAPI/GSSAPI.so
+%{_mandir}/man3/GSSAPI*.3pm*
 %{_examplesdir}/%{name}-%{version}
